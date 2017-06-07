@@ -1,0 +1,25 @@
+{
+    "name": "vlka/yii2-error_view",
+    "description": "Error view for autoopen phpstorm with file and line",
+    "keywords": ["yii2", "extesion", "debug", "error", "phpstorm"],
+    "type": "yii2-extesion",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vlka",
+            "email": "vladimir_kashkin@bk.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-debug": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "vlka\\components\\error_view\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "vlka\\components\\error_view\\ErrorView"
+    }
+}
