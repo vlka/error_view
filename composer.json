@@ -1,5 +1,5 @@
 {
-    "name": "vlka/yii2-components\error_view",
+    "name": "vlka/yii2-components\\error_view",
     "description": "Error view for autoopen phpstorm with file and line",
     "keywords": ["yii2", "extesion", "debug", "error", "phpstorm"],
     "type": "yii2-extesion",
