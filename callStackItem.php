@@ -1,7 +1,6 @@
 <?php
-/* @var $file string|null */
 use yii\helpers\Html;
-
+/* @var $file string|null */
 /* @var $line int|null */
 /* @var $class string|null */
 /* @var $method string|null */

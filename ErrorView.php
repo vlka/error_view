@@ -1,5 +1,5 @@
 <?php
-namespace vlka\error_view;
+namespace vlka\errorview;
 
 use yii\base\BootstrapInterface;
 use yii\base\Component;
@@ -10,7 +10,7 @@ class ErrorView extends Component implements BootstrapInterface
 {
     public function bootstrap($app)
     {
-        $app->errorHandler->callStackItemView = '@vlka/yii2-error_view/callStackItem.php';
+        $app->errorHandler->callStackItemView = '@vlka/errorview/callStackItem.php';
         Event::on(Module::className(), Module::EVENT_BEFORE_ACTION, function($event){
             $event->sender->traceLine = '<a href="phpstorm://open?file={file}&line={line}">{file}:{line}</a>';
         });
