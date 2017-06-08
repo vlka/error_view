@@ -25,4 +25,5 @@ to the require-dev section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed you must make some changes to your OS, see this example: https://github.com/aik099/PhpStormProtocol
+Once the extension is installed you must make some changes to your OS, see this example: https://github.com/aik099/PhpStormProtocol.
+In using the standard error page, clicking on the line number will open PhpStorm on that line.
