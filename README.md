@@ -25,7 +25,4 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \vlka\errorview\AutoloadExample::widget(); ?>```
+Once the extension is installed you must make some changes to your OS, see this example: https://github.com/aik099/PhpStormProtocol
