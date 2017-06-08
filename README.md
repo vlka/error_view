@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --dev --prefer-dist vlka/yii2-error-view "*"
+php composer.phar require --dev --prefer-dist vlka/yii2-error-view:dev-master
 ```
 
 or add
 
 ```
-"vlka/yii2-error-view": "*"
+"vlka/yii2-error-view": "dev-master"
 ```
 
 to the require-dev section of your `composer.json` file.
